@@ -1,0 +1,78 @@
+/* body {
+    background-color: #f7fafc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+  } */
+  .card {
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    max-width: 24rem;
+    max-height: 20rem;
+  }
+  .card .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .card .profile img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 9999px;
+    margin-right: 1rem;
+  }
+  .card .profile .details {
+    /* display: flex;
+     flex-direction: column;  */
+     display: block;
+     text-align: left;
+    
+  }
+  .card .profile .details .specialization {
+    color: #326bde;
+    font-size: 1rem;
+  }
+
+.experience{
+    color: #6b7280;
+    font-size: 0.875rem;
+  }
+  .card .profile .details .name {
+    color: #1f2937;
+    font-weight: 700;
+    font-size: 1.125rem;
+  }
+  .card .award {
+    color: #f97316;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  .card .description {
+    color: #4b5563;
+    margin-bottom: 1rem;
+  }
+  .card .description a {
+    color: #3b82f6;
+    text-decoration: none;
+  }
+  .card .description a:hover {
+    text-decoration: underline;
+  }
+  .card .button {
+    border: 1px solid #f97316;
+    color: #f97316;
+    border-radius: 9999px;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .card .button:hover {
+    background-color: #fef2f2;
+  }

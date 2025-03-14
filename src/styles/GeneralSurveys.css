@@ -1,0 +1,16 @@
+/* Center the row and make the cards display side by side */
+.surveys-container {
+    display: flex;
+    justify-content: center; /* Centers the cards horizontally */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    gap: 50px; /* Space between cards */
+}
+
+.card {
+    width: 300px; /* Set a fixed width for each card */
+    text-align: center;
+}
+
+.card-body {
+    padding: 20px;
+}
